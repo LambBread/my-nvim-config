@@ -2,7 +2,7 @@
 
 This configuration requires [vim-plug](https://github.com/junegunn/vim-plug), a nerd font, Git, and Neovim >= 0.9.0.
 
-## Plugins:
+## Plugins
 
 - [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
