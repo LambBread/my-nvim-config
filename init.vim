@@ -9,9 +9,6 @@ nnoremap <A-S-Down> <C-W>j
 nnoremap <C-X> :bd<CR>
 nnoremap <F2> :NvimTreeToggle<CR>
 nnoremap <C-S> :w<CR>
-nnoremap <C-A-X> :wqa<CR>
-nnoremap <F5> :ter<CR>i./compile.sh compile<CR>exit<CR>
-nnoremap <F6> :ter<CR>i./compile.sh run<CR>exit<CR>
 set expandtab         " Converts tabs to spaces
 set tabstop=4         " Display tabs as 4 spaces (adjust as needed)
 set shiftwidth=4      " Indent levels use 4 spaces
