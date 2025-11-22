@@ -26,7 +26,7 @@ Plug 'windwp/nvim-autopairs'
 Plug 'ojroques/nvim-hardline'
 call plug#end()
 autocmd FileType xpm setlocal syntax=OFF
-autocmd BufRead,BufNewFile .conkyrc set filetype=lua
+autocmd BufRead,BufNewFile conky.conf set filetype=lua
 syntax enable
 let g:load_doxygen_syntax = 1
 autocmd FileType c,cpp setlocal filetype=cpp.doxygen
