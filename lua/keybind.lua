@@ -1,0 +1,11 @@
+vim.keymap.set("n", "<A-Left>", ":bp<CR>", { silent = true })
+vim.keymap.set("n", "<A-Right>", ":bn<CR>", { silent = true })
+vim.keymap.set("n", "<A-S-Left>", "<C-W>h", { silent = true })
+vim.keymap.set("n", "<A-S-Right>", "<C-W>l", { silent = true })
+vim.keymap.set("n", "<A-S-Up>", "<C-W>k", { silent = true })
+vim.keymap.set("n", "<A-;>", "<C-W>w", { silent = true })
+vim.keymap.set("n", "<A-S-Down>", "<C-W>j", { silent = true })
+vim.keymap.set("n", "<C-X>", ":bd<CR>", { silent = true })
+vim.keymap.set("n", "<F2>", ":NvimTreeToggle<CR>", { silent = true })
+vim.keymap.set("n", "<C-S>", ":w<CR>", { silent = true })
+
