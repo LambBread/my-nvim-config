@@ -61,7 +61,12 @@ require("lazy").setup({
           "windwp/nvim-autopairs",
           config = true
       },
-      {"ojroques/nvim-hardline", config = true},
+      {
+          "nvim-lualine/lualine.nvim",
+          dependencies = { "nvim-tree/nvim-web-devicons" },
+          config = true
+      }
+      --{"ojroques/nvim-hardline", config = true},
   },
   install = { colorscheme = { "habamax" } },
   checker = { enabled = true }, -- auto check for plugin updates
