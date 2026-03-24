@@ -35,10 +35,14 @@ require("lazy").setup({
       { "mattn/emmet-vim" },
       { "mg979/vim-visual-multi" },
       {
-        "nvim-tree/nvim-tree.lua",
+        "nvim-neo-tree/neo-tree.nvim",
+        branch = "v3.x",
         dependencies = {
+            "nvim-lua/plenary.nvim",
+            "MunifTanjim/nui.nvim",
             "nvim-tree/nvim-web-devicons"
         },
+        lazy = false,
         config = true
       },
       {
@@ -58,7 +62,6 @@ require("lazy").setup({
           config = true
       },
       {"ojroques/nvim-hardline", config = true},
-      {"nvim-lua/plenary.nvim"}
   },
   install = { colorscheme = { "habamax" } },
   checker = { enabled = true }, -- auto check for plugin updates

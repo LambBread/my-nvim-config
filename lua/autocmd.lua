@@ -18,7 +18,7 @@ vim.api.nvim_create_autocmd("FileType", {
 vim.api.nvim_create_autocmd("VimEnter", {
     callback = function()
         if vim.fn.argc() == 0 then
-            vim.cmd("NvimTreeToggle")
+            vim.cmd("Neotree toggle")
         end
     end,
 })
