@@ -10,7 +10,7 @@ This configuration requires [vim-plug](https://github.com/junegunn/vim-plug), a 
 - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 - [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
-- [nvim-hardline](https://github.com/ojroques/nvim-hardline)
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 ## Installation (Debian-based systems)
 
