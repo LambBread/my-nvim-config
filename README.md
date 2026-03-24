@@ -1,6 +1,6 @@
 # My Neovim Config
 
-This configuration requires [vim-plug](https://github.com/junegunn/vim-plug), a nerd font, Git, and Neovim >= 0.8.0.
+This configuration requires a nerd font ([MonaspiceAr Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Monaspace.zip) preferred), Git, and Neovim >= 0.8.0.
 
 ## Plugins
 
@@ -27,5 +27,5 @@ sudo apt install git neovim
 cd ~/.config
 git clone https://github.com/LambBread/my-nvim-config.git nvim
 
-# add vim-plug to autoload + install nerd font here...
+# install nerd font here...
 ```
