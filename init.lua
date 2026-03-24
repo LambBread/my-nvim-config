@@ -5,4 +5,4 @@ require("plugin")
 
 require("autocmd")
 
-require("setup_plug")
+--require("setup_plug")
