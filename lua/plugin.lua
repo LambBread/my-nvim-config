@@ -42,6 +42,18 @@ require("lazy").setup({
             "MunifTanjim/nui.nvim",
             "nvim-tree/nvim-web-devicons"
         },
+        opts = {
+            filesystem = {
+                filtered_items = {
+                    visible = true,
+                    hide_gitignored = true,
+                    hide_dotfiles = false,
+                    hide_hidden = false,
+                    hide_by_name = {},
+                    never_show = {".git"}
+                }      
+            }
+        },
         lazy = false,
         config = true
       },
