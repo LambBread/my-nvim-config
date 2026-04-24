@@ -34,13 +34,22 @@ require("lazy").setup({
       { "tikhomirov/vim-glsl" },
       { "mattn/emmet-vim" },
       { "mg979/vim-visual-multi" },
+      { "folke/snacks.nvim",
+        opts = {
+            image = {
+                enabled = true,
+                doc = { inline = true, float = true }
+            }
+        }
+      },
       {
         "nvim-neo-tree/neo-tree.nvim",
         branch = "v3.x",
         dependencies = {
             "nvim-lua/plenary.nvim",
             "MunifTanjim/nui.nvim",
-            "nvim-tree/nvim-web-devicons"
+            "nvim-tree/nvim-web-devicons",
+            "folke/snacks.nvim"
         },
         opts = {
             filesystem = {
@@ -51,8 +60,9 @@ require("lazy").setup({
                     hide_hidden = false,
                     hide_by_name = {},
                     never_show = {".git"}
-                }      
-            }
+                }
+            },
+            use_snacks_image = true
         },
         lazy = false,
         config = true

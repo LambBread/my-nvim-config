@@ -1,6 +1,6 @@
 # My Neovim Config
 
-This configuration requires a nerd font ([MonaspiceAr Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Monaspace.zip) preferred), Git, and Neovim >= 0.8.0.
+This configuration requires a nerd font ([MonaspiceAr Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Monaspace.zip) preferred), Git, and Neovim >= 0.9.4.
 
 ## Plugins
 
@@ -11,6 +11,7 @@ This configuration requires a nerd font ([MonaspiceAr Nerd Font Mono](https://gi
 - [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- [snacks.nvim](https://github.com/folke/snacks.nvim)
 
 ## Installation (Debian-based systems)
 
@@ -18,7 +19,7 @@ This configuration requires a nerd font ([MonaspiceAr Nerd Font Mono](https://gi
 sudo apt update
 
 # If Neovim in your system's repository is
-# under version 0.8.0 (e.g. in Debian 12),
+# under version 0.9.4 (e.g. in Debian 12),
 # install through another method such as 
 # AppImage.
 sudo apt install git neovim
