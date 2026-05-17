@@ -1,6 +1,6 @@
 # My Neovim Config
 
-This configuration requires a nerd font ([MonaspiceAr Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Monaspace.zip) preferred), Git, and Neovim >= 0.9.4.
+This configuration requires a nerd font ([MonaspiceAr Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Monaspace.zip) preferred), Git, and Neovim >= 0.10.0.
 
 ## Plugins
 
@@ -12,3 +12,4 @@ This configuration requires a nerd font ([MonaspiceAr Nerd Font Mono](https://gi
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [snacks.nvim](https://github.com/folke/snacks.nvim)
+- [blink.cmp](https://github.com/saghen/blink.cmp)

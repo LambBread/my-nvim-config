@@ -34,7 +34,27 @@ require("lazy").setup({
       { "tikhomirov/vim-glsl" },
       { "mattn/emmet-vim" },
       { "mg979/vim-visual-multi" },
-      { "folke/snacks.nvim",
+      {
+        "saghen/blink.cmp",
+        dependencies = {
+            "rafamadriz/friendly-snippets"
+        },
+        version = "v1",
+        opts = {
+            -- Ctrl+e - close, Ctrl+y - accept, Up/Down - navigate
+            keymap = { preset = "default" },
+            appearance = {
+                nerd_font_variant = "mono"
+            },
+            sources = {
+                default = { "lsp", "path", "snippets", "buffer" },
+                providers = {}
+            }
+        },
+        opts_extend = { "sources.default" }
+      },
+      { 
+        "folke/snacks.nvim",
         opts = {
             image = {
                 enabled = true,
