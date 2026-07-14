@@ -28,6 +28,8 @@ vim.api.nvim_set_hl(0, "Constant", {fg = color_2})
 vim.api.nvim_set_hl(0, "Changed", {fg = "#ffff00"})
 vim.api.nvim_set_hl(0, "Pmenu", {bg = color_1})
 vim.api.nvim_set_hl(0, "WarningMsg", {fg = color_red, italic = true})
+vim.api.nvim_set_hl(0, "LineNr", {fg = color_4, bold = true, italic = true})
+vim.api.nvim_set_hl(0, "NonText", {fg = dark_col1})
 
 vim.api.nvim_set_hl(0, "DevIconC", {fg = color_1})
 vim.api.nvim_set_hl(0, "DevIconH", {fg = dark_col1})
